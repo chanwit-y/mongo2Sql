@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { MongoToSQLConverter } from ".";
+import { MongoToSQLConverter } from "..";
 
 test("Service Master - Dropdown Loss By Group", () => {
   const mainTable = "loss";
